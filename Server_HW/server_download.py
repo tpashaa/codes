@@ -47,7 +47,7 @@ def read_links(file):
             links.append(m.group(1))
     return links
 
-all_links = read_links('/Users/mac/Documents/codes/Server_HW/links.txt')
+all_links = read_links('links.txt')
 
 print (all_links[0:10])
 n = 1
